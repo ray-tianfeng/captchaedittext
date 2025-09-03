@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CaptchaEditText">
+        <attr name="borderSize" format="dimension"/>
+        <attr name="borderStrokeWidth" format="dimension"/>
+        <attr name="captchaLength" format="integer"/>
+        <attr name="intervalPadding" format="dimension"/>
+        <attr name="radius" format="dimension"/>
+        <attr name="norBorderColor" format="color"/>
+        <attr name="focusBorderColor" format="color"/>
+        <attr name="callbackAuto" format="boolean"/>
+        <attr name="borderType">
+            <enum name="rectangle" value="0" />
+            <enum name="underline" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

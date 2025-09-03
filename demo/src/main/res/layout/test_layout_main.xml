@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <com.view.captchaedittext.CaptchaEditText
+        android:id="@+id/test1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="50dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:borderSize="40dp"
+        app:borderStrokeWidth="1dp"
+        app:borderType="rectangle"
+        app:captchaLength="6"
+        app:focusBorderColor="#3366FF"
+        app:intervalPadding="10dp"
+        app:norBorderColor="#444444"
+        app:radius="8dp" />
+
+    <com.view.captchaedittext.CaptchaEditText
+        android:id="@+id/test2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="50dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:borderSize="40dp"
+        app:borderStrokeWidth="2dp"
+        app:borderType="underline"
+        app:captchaLength="6"
+        app:focusBorderColor="#3366FF"
+        app:intervalPadding="10dp"
+        app:norBorderColor="#444444" />
+</LinearLayout>
