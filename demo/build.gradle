@@ -36,6 +36,5 @@ android {
 }
 
 dependencies {
-    implementation project(":CaptchaEditText")
-
+    implementation 'com.github.ray-tianfeng:captchaedittext:v1.0.0'
 }

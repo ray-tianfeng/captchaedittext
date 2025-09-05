@@ -13,11 +13,11 @@ class MainActivity : Activity() {
         setContentView(R.layout.test_layout_main)
         findViewById<CaptchaEditText>(R.id.test1).setCallback {
                 code ->
-            Toast.makeText(MainActivity@this, "验证码：$code", Toast.LENGTH_LONG).show()
+            Toast.makeText(MainActivity@this, "验证码：$code", Toast.LENGTH_SHORT).show()
         }
         findViewById<CaptchaEditText>(R.id.test2).setCallback {
             code ->
-            Toast.makeText(MainActivity@this, "验证码：$code", Toast.LENGTH_LONG).show()
+            Toast.makeText(MainActivity@this, "验证码：$code", Toast.LENGTH_SHORT).show()
         }
     }
 }
