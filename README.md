@@ -1,7 +1,7 @@
 # 验证码控件
 1. 支持2种边框
 2. 支持选中修改
-3. 支持输入长度和完成键双回调
+3. 支持输入长度检测和完成键双回调
 
 ![portrait.gif](/gif.gif)
 
@@ -72,6 +72,8 @@
  </table>
 
 ### 回调 ###
+1. 当输入当度等于captchaLength时回调  
+2. 当输入用户按下完成按键时回调
 ~~~Koltin
 findViewById<CaptchaEditText>(R.id.id).setCallback {
         code ->
