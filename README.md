@@ -1,8 +1,12 @@
-# 简单的验证码控件
+# 验证码控件
+1. 支持2种边框
+2. 支持选中修改
+3. 支持输入长度和完成键双回调
+
 ![portrait.gif](/gif.gif)
 
 ### 导入 ###
-<code>
+~~~gradle
     repositories {
         maven { url 'https://jitpack.io' }
     }
@@ -10,7 +14,7 @@
     dependencies {
         implementation 'com.github.ray-tianfeng:captchaedittext:v1.0.0'
     }
-</code>
+~~~
 
 ### 属性 ###
 
@@ -68,7 +72,9 @@
  </table>
 
 ### 回调 ###
+~~~Koltin
 findViewById<CaptchaEditText>(R.id.id).setCallback {
         code ->
     Toast.makeText(MainActivity@this, "验证码：$code", Toast.LENGTH_SHORT).show()
 }
+~~~
