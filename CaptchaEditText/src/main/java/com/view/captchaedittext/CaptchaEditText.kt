@@ -86,10 +86,6 @@ public class CaptchaEditText @JvmOverloads constructor(
         super.setMeasuredDimension((adaptWithSize + 2 * defaultPadding).toInt(), (borderSize + 2 * defaultPadding).toInt())
     }
 
-    override fun draw(canvas: Canvas) {
-        super.draw(canvas)
-    }
-
     override fun onDraw(canvas: Canvas) {
         canvas.save()
         canvas.translate(defaultPadding, defaultPadding)
