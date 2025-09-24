@@ -73,7 +73,7 @@
 
 ### 回调 ###
 1. 当输入当度等于captchaLength时回调  
-2. 当输入用户按下完成按键时回调
+2. 当用户按下完成按键时回调
 ~~~Koltin
 findViewById<CaptchaEditText>(R.id.id).setCallback {
         code ->
